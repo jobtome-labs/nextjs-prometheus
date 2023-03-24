@@ -21,7 +21,7 @@ It is also collecting the child process metrics using _collectDefaultMetrics_ fr
 Monkey-patching for Application Performance Monitoring (APM) provides a powerful and flexible approach, enabling seamless integration and deep insights into your application's inner workings without disrupting its original structure, ultimately enhancing observability and optimizing performance.
 
 
-#### Other alternatives
+### Other alternatives
 
 Another aproach would be to wrap the method you wanna track in a HOF. Here I leave an example for getServerSideProps.
 

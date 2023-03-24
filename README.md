@@ -5,7 +5,7 @@ This module provides prometheus instrumentation for server-side rendering via [g
 
 **Note**: Due to his nature the minimum supported Next.js version is [12.0.9](https://github.com/vercel/next.js/releases/tag/v12.0.9).  If you are using Next.js middleware the minimum supported version is [12.2.0](https://github.com/vercel/next.js/releases/tag/v12.2.0). Currently is **not** supporting the new [App Route](https://beta.nextjs.org/docs/routing/fundamentals). Open a new [issue](https://github.com/jobtome-labs/nextjs-prometheus/issues/new) if you need such support.
 
-### What is all about
+## What is all about
 nextjs-prometheus is instrumenting prometheus by monkey-patching the nextJS modules responsibile for SSR operations. It is currently wrapping:
 
 * [next-server](https://github.com/jobtome-labs/nextjs-prometheus/blob/main/lib/next-server.js)
@@ -14,7 +14,7 @@ nextjs-prometheus is instrumenting prometheus by monkey-patching the nextJS modu
 
 It is also collecting the child process metrics using _collectDefaultMetrics_ from <code>prom-client</code>
 
-#### Why Monkeypatching
+## Why Monkeypatching
 
 **Disclaimer** monkey-patching relies on the internal implementation of a module, which may change over time, leading to compatibility and maintenance issues.
 

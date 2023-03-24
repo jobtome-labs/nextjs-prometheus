@@ -4,7 +4,7 @@
   "description": "Observability of a nextjs application w/ Prometheus",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish-packages": "changeset version && changeset publish"
   },
   "keywords": [],
   "author": "Erik Olivero <@ekolivero> (https://github.com/ekolivero)",

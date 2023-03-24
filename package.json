@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Observability of a nextjs application w/ Prometheus",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "publish-packages": "changeset version && changeset publish"
   },

@@ -7,6 +7,7 @@ instrumentWebFramework(
   require("./lib/next-server")
 );
 instrumentWebFramework("next/dist/server/render", require("./lib/render"));
+instrumentWebFramework("next/dist/server/next-server", require("./lib/middleware"));
 
 
 const app = express();

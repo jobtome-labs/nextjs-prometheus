@@ -1,6 +1,6 @@
 {
   "name": "nextjs-prometheus",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Observability of a nextjs application w/ Prometheus",
   "main": "index.js",
   "publishConfig": {
